@@ -1,0 +1,124 @@
+.header{
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.social:hover{
+    transform: scale(2);
+}
+
+.Button {
+  background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-size: 16px;
+  justify-content: center;
+  padding: 1rem 1.75rem;
+  text-decoration: none;
+  width: 30rem;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  align-content: center;
+  margin-left: 20rem;
+}
+
+.Button:hover {
+  background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+}
+
+@media (min-width: 768px) {
+  .Button {
+    padding: 1rem 2rem;
+  }
+}
+.experience{
+  margin-left: 20px;
+}
+/* layout template from: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_blog_layout 
+   css 95% same, add 'border-radius' to .card 
+*/
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Add a gray background color with some padding */
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+  }
+  
+ 
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  #end{
+    background: #b96529;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #f1fa6d, #b96f29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #f1fa6d, #b96f29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+  }
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+     border-radius: 25px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  
+
