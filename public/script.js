@@ -1,5 +1,5 @@
 
-const music0 = new sound("./audio/0.");
+const music0 = new sound("./audio/0.wav");
 const musicA = new sound("./audio/A.wav");
 const musicA_1 = new sound("./audio/A_1.wav");
 const musicA_2 = new sound("./audio/A_2.wav");
